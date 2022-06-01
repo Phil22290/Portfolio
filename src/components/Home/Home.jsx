@@ -1,7 +1,5 @@
 import React from "react";
-import { Link } from "react-scroll";
 import "./style.scss";
-import { HiArrowNarrowRight } from "react-icons/hi";
 
 const Home = () => {
 	return (

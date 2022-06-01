@@ -1,8 +1,7 @@
-import React, { useState, useCallback } from "react";
-import { render } from "react-dom";
+import React from "react";
 import styles from "./gallery.module.css";
 import Archi from "../../assets/archi.jpg";
-import Pixel from "../../assets/pixel.jpg";
+
 import Typo from "../../assets/typo.jpg";
 import Kiss from "../../assets/kiss.jpg";
 import Cj from "../../assets/cj.png";
