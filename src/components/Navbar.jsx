@@ -1,6 +1,4 @@
 import React from "react";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { BsFillPersonLinesFill } from "react-icons/bs";
 import Logo2bl from "../assets/logo2bl.png";
 
 const Navbar = () => {
