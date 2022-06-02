@@ -176,10 +176,11 @@ const Home = () => {
 					</span>
 				</a>
 
-				{/* <h2 className="mb-6 text-4xl font-bold sm:text-5xl text-darkgrey">
-					My name is Phil. I'm a creative jack of all trades, who loves anything
-					tech-related.
-				</h2> */}
+				<section id="section01" class="demo">
+					<a href="#section02">
+						<span></span>
+					</a>
+				</section>
 			</div>
 		</div>
 	);

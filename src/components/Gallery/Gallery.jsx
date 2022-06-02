@@ -14,7 +14,7 @@ const Gallery = () => {
 	return (
 		<div
 			name="gallery"
-			className="w-full h-screen text-gray-300 snap-start md:h-screen "
+			className="w-full h-screen overflow-hidden text-gray-300 snap-start md:h-screen "
 		>
 			<div className="max-w-[80vw] mx-auto p-4 flex flex-col justify-center w-full">
 				<div className="pt-16 pb-16">
@@ -25,14 +25,14 @@ const Gallery = () => {
 						<div class="container px-5 mx-auto">
 							<div class="flex flex-wrap -m-4">
 								{/* start cards */}
-								<div class="lg:w-1/4 sm:w-1/2 p-2">
+								<div class="lg:w-1/4 sm:w-1/2 w-1/2 p-2">
 									<div class="flex relative">
 										<img
 											alt="gallery"
 											class="absolute inset-0 w-full h-full object-cover object-center"
 											src={Chr}
 										/>
-										<div class="px-8 py-10 h-[18em] relative z-10 w-full bg-indigo-200 opacity-0 hover:opacity-100 transition-opacity duration-700 hover:shadow-lg">
+										<div class="px-8 py-10 h-[12em] sm:h-[18em] relative z-10 w-full bg-indigo-200 opacity-0 hover:opacity-100 transition-opacity duration-700 hover:shadow-lg">
 											<h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
 												Illustrator + Photoshop for mockup
 											</h2>
@@ -60,14 +60,14 @@ const Gallery = () => {
 									</div>
 								</div>
 
-								<div class="lg:w-1/4 sm:w-1/2 p-2">
+								<div class="lg:w-1/4 sm:w-1/2 w-1/2 p-2">
 									<div class="flex relative">
 										<img
 											alt="gallery"
 											class="absolute inset-0 w-full h-full object-cover object-center"
 											src={Mockvolth}
 										/>
-										<div class="px-8 py-10 h-[18em] relative z-10 w-full bg-indigo-200 opacity-0 hover:opacity-100 transition-opacity duration-700">
+										<div class="px-8 py-10 h-[12em] sm:h-[18em] relative z-10 w-full bg-indigo-200 opacity-0 hover:opacity-100 transition-opacity duration-700 hover:shadow-lg">
 											<h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
 												HTML/CSS - React - Gatsby - Netlify
 											</h2>
@@ -95,14 +95,14 @@ const Gallery = () => {
 									</div>
 								</div>
 
-								<div class="lg:w-1/4 sm:w-1/2 p-2">
+								<div class="lg:w-1/4 sm:w-1/2 w-1/2 p-2">
 									<div class="flex relative">
 										<img
 											alt="gallery"
 											class="absolute inset-0 w-full h-full object-cover object-center"
 											src={Cj}
 										/>
-										<div class="px-8 py-10 h-[18em] relative z-10 w-full bg-indigo-200 opacity-0 hover:opacity-100 transition-opacity duration-700">
+										<div class="px-8 py-10 h-[12em] sm:h-[18em] relative z-10 w-full bg-indigo-200 opacity-0 hover:opacity-100 transition-opacity duration-700 hover:shadow-lg">
 											<h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
 												Illustrator + Photoshop
 											</h2>
@@ -131,14 +131,14 @@ const Gallery = () => {
 									</div>
 								</div>
 
-								<div class="lg:w-1/4 sm:w-1/2 p-2">
+								<div class="lg:w-1/4 sm:w-1/2 w-1/2 p-2">
 									<div class="flex relative">
 										<img
 											alt="gallery"
 											class="absolute inset-0 w-full h-full object-cover object-center"
 											src={Mockpara}
 										/>
-										<div class="px-8 py-10 h-[18em] relative z-10 w-full bg-indigo-200 opacity-0 hover:opacity-100 transition-opacity duration-700">
+										<div class="px-8 py-10 h-[12em] sm:h-[18em] relative z-10 w-full bg-indigo-200 opacity-0 hover:opacity-100 transition-opacity duration-700 hover:shadow-lg">
 											<h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
 												HTML/CSS - React - Netlify
 											</h2>
@@ -165,14 +165,14 @@ const Gallery = () => {
 									</div>
 								</div>
 
-								<div class="lg:w-1/4 sm:w-1/2 p-2">
+								<div class="lg:w-1/4 sm:w-1/2 w-1/2 p-2">
 									<div class="flex relative">
 										<img
 											alt="gallery"
 											class="absolute inset-0 w-full h-full object-cover object-center"
 											src={Kiss}
 										/>
-										<div class="px-8 py-10 h-[18em] relative z-10 w-full bg-red-200 opacity-0 hover:opacity-100 transition-opacity duration-1000">
+										<div class="px-8 py-10 h-[12em] sm:h-[18em] relative z-10 w-full bg-indigo-200 opacity-0 hover:opacity-100 transition-opacity duration-700 hover:shadow-lg">
 											<h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
 												InDesign
 											</h2>
@@ -200,14 +200,14 @@ const Gallery = () => {
 									</div>
 								</div>
 
-								<div class="lg:w-1/4 sm:w-1/2 p-2">
+								<div class="lg:w-1/4 sm:w-1/2 w-1/2 p-2">
 									<div class="flex relative">
 										<img
 											alt="gallery"
 											class="absolute inset-0 w-full h-full object-cover object-center"
 											src={Archi}
 										/>
-										<div class="px-8 py-10 h-[18em] relative z-10 w-full bg-red-200 opacity-0 hover:opacity-100 transition-opacity duration-1000">
+										<div class="px-8 py-10 h-[12em] sm:h-[18em] relative z-10 w-full bg-indigo-200 opacity-0 hover:opacity-100 transition-opacity duration-700 hover:shadow-lg">
 											<h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
 												Illustrator
 											</h2>
@@ -235,14 +235,14 @@ const Gallery = () => {
 									</div>
 								</div>
 
-								<div class="lg:w-1/4 sm:w-1/2 p-2">
+								<div class="lg:w-1/4 sm:w-1/2 w-1/2 p-2">
 									<div class="flex relative">
 										<img
 											alt="gallery"
 											class="absolute inset-0 w-full h-full object-cover object-center"
 											src={Typo}
 										/>
-										<div class="px-8 py-10 h-[18em] relative z-10 w-full bg-red-200 opacity-0 hover:opacity-100 transition-opacity duration-1000">
+										<div class="px-8 py-10 h-[12em] sm:h-[18em] relative z-10 w-full bg-indigo-200 opacity-0 hover:opacity-100 transition-opacity duration-700 hover:shadow-lg">
 											<h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
 												InDesign
 											</h2>
@@ -270,14 +270,14 @@ const Gallery = () => {
 									</div>
 								</div>
 
-								<div class="lg:w-1/4 sm:w-1/2 p-2">
+								<div class="lg:w-1/4 sm:w-1/2 w-1/2 p-2">
 									<div class="flex relative">
 										<img
 											alt="gallery"
 											class="absolute inset-0 w-full h-full object-cover object-center"
 											src={Branding}
 										/>
-										<div class="px-8 py-10 h-[18em] relative z-10 w-full bg-red-200 opacity-0 hover:opacity-100 transition-opacity duration-1000">
+										<div class="px-8 py-10 h-[12em] sm:h-[18em] relative z-10 w-full bg-indigo-200 opacity-0 hover:opacity-100 transition-opacity duration-700 hover:shadow-lg">
 											<h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
 												Illustrator
 											</h2>

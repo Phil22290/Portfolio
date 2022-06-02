@@ -24,9 +24,13 @@ function App() {
 						<Skills />
 					</div>
 
-					<Gallery />
-					<Contact />
-					<Footer />
+					<div className="scrollElement">
+						<Gallery />
+					</div>
+					<div className="scrollElement">
+						<Contact />
+						<Footer />
+					</div>
 				</div>
 			</div>
 		</>

@@ -1,12 +1,11 @@
-import React, { useState } from "react";
-import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
+import React from "react";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import Logo2bl from "../assets/logo2bl.png";
-import { Link } from "react-scroll";
 
 const Navbar = () => {
-	const [nav, setNav] = useState(false);
-	const handleClick = () => setNav(!nav);
+	// const [nav, setNav] = useState(false);
+	// const handleClick = () => setNav(!nav);
 
 	return (
 		<div className="fixed w-full h-[80px] flex justify-between items-center px-4 font-bold backdrop-blur-sm text-indigo-400 ">
@@ -44,12 +43,12 @@ const Navbar = () => {
 			</ul> */}
 
 			{/* Hamburger */}
-			<div onClick={handleClick} className="z-10 md:hidden">
+			{/* <div onClick={handleClick} className="z-10 md:hidden">
 				{!nav ? <FaBars /> : <FaTimes />}
-			</div>
+			</div> */}
 
 			{/* Mobile menu */}
-			<ul
+			{/* <ul
 				className={
 					!nav
 						? "hidden"
@@ -85,7 +84,7 @@ const Navbar = () => {
 						Contact
 					</Link>
 				</li>
-			</ul>
+			</ul> */}
 
 			{/* Social icons */}
 			<div className="hidden lg:flex fixed flex-col top-[300%] left-0">
