@@ -53,7 +53,7 @@ const Contact = () => {
 			</div>
 
 			{/* contactbar */}
-			<div className=" absolute lg:flex  flex-col top-[10em] left-0">
+			<div className=" absolute lg:flex  flex-col top-[25em] left-0">
 				<ul>
 					<li className="w-[150px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-indigo-400">
 						<a
