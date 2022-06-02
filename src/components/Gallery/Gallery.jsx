@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./gallery.module.css";
-import Archi from "../../assets/archi.jpg";
+import Drip from "../../assets/drip.png";
 
 import Typo from "../../assets/typo.jpg";
 import Kiss from "../../assets/kiss.jpg";
@@ -205,25 +205,24 @@ const Gallery = () => {
 										<img
 											alt="gallery"
 											class="absolute inset-0 w-full h-full object-cover object-center"
-											src={Archi}
+											src={Drip}
 										/>
 										<div class="px-8 py-10 h-[12em] sm:h-[18em] relative z-10 w-full bg-indigo-200 opacity-0 hover:opacity-100 transition-opacity duration-700 hover:shadow-lg">
 											<h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
 												Illustrator
 											</h2>
 											<h1 class="title-font text-lg font-medium text-gray-900 mb-3">
-												Poster design
+												Drip
 											</h1>
 											<p class="leading-relaxed">
-												This poster design was made during my Graphic Design
-												study (2011).
+												This poster was made for practicing purposes. (2022)
 											</p>
 											<button
 												type="button"
 												class="inline-block mt-6 px-6 py-2.5 bg-gray-200 text-gray-700 font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-gray-300 hover:shadow-lg focus:bg-gray-300 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-400 active:shadow-lg transition duration-150 ease-in-out"
 											>
 												<a
-													href="https://www.behance.net/gallery/144997815/My-House-My-architect-poster-design"
+													href="https://www.behance.net/gallery/145141483/Drip"
 													target="_blank"
 													rel="noreferrer"
 													className="font-bold button "
