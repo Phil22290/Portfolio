@@ -29,7 +29,6 @@ function App() {
 					</div>
 					<div className="scrollElement">
 						<Contact />
-						<Footer />
 					</div>
 				</div>
 			</div>

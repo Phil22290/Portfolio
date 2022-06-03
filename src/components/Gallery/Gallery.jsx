@@ -17,8 +17,10 @@ const Gallery = () => {
 			className="w-full h-screen overflow-hidden text-gray-300 snap-start md:h-screen "
 		>
 			<div className="max-w-[80vw] mx-auto p-4 flex flex-col justify-center w-full">
-				<div className="pt-16 pb-16">
-					<p className="inline text-5xl font-bold text-red-300">Gallery</p>
+				<div className="pt-16 pb-8 sm:pb-16">
+					<p className="inline text-3xl font-bold text-red-300 sm:text-5xl">
+						Gallery
+					</p>
 				</div>
 				<div className={styles.container}>
 					<section class="text-gray-600 body-font">
@@ -26,13 +28,20 @@ const Gallery = () => {
 							<div class="flex flex-wrap -m-4">
 								{/* start cards */}
 								<div class="lg:w-1/4 sm:w-1/2 w-1/2 p-2">
-									<div class="flex relative">
-										<img
-											alt="gallery"
-											class="absolute inset-0 w-full h-full object-cover object-center"
-											src={Chr}
-										/>
-										<div class="px-8 py-10 h-[12em] sm:h-[18em] relative z-10 w-full bg-indigo-200 opacity-0 hover:opacity-100 transition-opacity duration-700 hover:shadow-lg">
+									<div class="flex relative max-h-32 md:max-h-max">
+										<a
+											href="https://www.behance.net/gallery/144827947/Logo-Design-for-landscaping-company"
+											target="_blank"
+											rel="noreferrer"
+											className="visible sm:invisible"
+										>
+											<img
+												alt="gallery"
+												class="visible absolute inset-0 w-full h-full object-cover object-center"
+												src={Chr}
+											/>
+										</a>
+										<div class="invisible sm:visible px-8 py-10 h-[12em] sm:h-[18em] relative z-10 w-full bg-indigo-200 opacity-0 hover:opacity-100 transition-opacity duration-700 hover:shadow-lg">
 											<h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
 												Illustrator + Photoshop for mockup
 											</h2>
@@ -51,7 +60,7 @@ const Gallery = () => {
 													href="https://www.behance.net/gallery/144827947/Logo-Design-for-landscaping-company"
 													target="_blank"
 													rel="noreferrer"
-													className="font-bold button "
+													className="font-bold button"
 												>
 													Open
 												</a>
@@ -61,13 +70,20 @@ const Gallery = () => {
 								</div>
 
 								<div class="lg:w-1/4 sm:w-1/2 w-1/2 p-2">
-									<div class="flex relative">
-										<img
-											alt="gallery"
-											class="absolute inset-0 w-full h-full object-cover object-center"
-											src={Mockvolth}
-										/>
-										<div class="px-8 py-10 h-[12em] sm:h-[18em] relative z-10 w-full bg-indigo-200 opacity-0 hover:opacity-100 transition-opacity duration-700 hover:shadow-lg">
+									<div class="flex relative max-h-32 md:max-h-max">
+										<a
+											href="https://github.com/Phil22290/Volth"
+											target="_blank"
+											rel="noreferrer"
+											className="visible sm:invisible"
+										>
+											<img
+												alt="gallery"
+												class="visible absolute inset-0 w-full h-full object-cover object-center"
+												src={Mockvolth}
+											/>
+										</a>
+										<div class="invisible sm:visible px-8 py-10 h-[12em] sm:h-[18em] relative z-10 w-full bg-indigo-200 opacity-0 hover:opacity-100 transition-opacity duration-700 hover:shadow-lg">
 											<h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
 												HTML/CSS - React - Gatsby - Netlify
 											</h2>
@@ -96,13 +112,20 @@ const Gallery = () => {
 								</div>
 
 								<div class="lg:w-1/4 sm:w-1/2 w-1/2 p-2">
-									<div class="flex relative">
-										<img
-											alt="gallery"
-											class="absolute inset-0 w-full h-full object-cover object-center"
-											src={Cj}
-										/>
-										<div class="px-8 py-10 h-[12em] sm:h-[18em] relative z-10 w-full bg-indigo-200 opacity-0 hover:opacity-100 transition-opacity duration-700 hover:shadow-lg">
+									<div class="flex relative max-h-32 md:max-h-max">
+										<a
+											href="https://www.behance.net/gallery/144973467/Instagram-grid-for-side-project-%28fragrance-website%29"
+											target="_blank"
+											rel="noreferrer"
+											className="visible sm:invisible"
+										>
+											<img
+												alt="gallery"
+												class="visible absolute inset-0 w-full h-full object-cover object-center"
+												src={Cj}
+											/>
+										</a>
+										<div class="invisible sm:visible px-8 py-10 h-[12em] sm:h-[18em] relative z-10 w-full bg-indigo-200 opacity-0 hover:opacity-100 transition-opacity duration-700 hover:shadow-lg">
 											<h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
 												Illustrator + Photoshop
 											</h2>
@@ -132,13 +155,20 @@ const Gallery = () => {
 								</div>
 
 								<div class="lg:w-1/4 sm:w-1/2 w-1/2 p-2">
-									<div class="flex relative">
-										<img
-											alt="gallery"
-											class="absolute inset-0 w-full h-full object-cover object-center"
-											src={Mockpara}
-										/>
-										<div class="px-8 py-10 h-[12em] sm:h-[18em] relative z-10 w-full bg-indigo-200 opacity-0 hover:opacity-100 transition-opacity duration-700 hover:shadow-lg">
+									<div class="flex relative max-h-32 md:max-h-max">
+										<a
+											href="https://github.com/Phil22290/Paradisr"
+											target="_blank"
+											rel="noreferrer"
+											className="visible sm:invisible"
+										>
+											<img
+												alt="gallery"
+												class="visible absolute inset-0 w-full h-full object-cover object-center"
+												src={Mockpara}
+											/>
+										</a>
+										<div class="invisible sm:visible px-8 py-10 h-[12em] sm:h-[18em] relative z-10 w-full bg-indigo-200 opacity-0 hover:opacity-100 transition-opacity duration-700 hover:shadow-lg">
 											<h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
 												HTML/CSS - React - Netlify
 											</h2>
@@ -166,13 +196,20 @@ const Gallery = () => {
 								</div>
 
 								<div class="lg:w-1/4 sm:w-1/2 w-1/2 p-2">
-									<div class="flex relative">
-										<img
-											alt="gallery"
-											class="absolute inset-0 w-full h-full object-cover object-center"
-											src={Kiss}
-										/>
-										<div class="px-8 py-10 h-[12em] sm:h-[18em] relative z-10 w-full bg-indigo-200 opacity-0 hover:opacity-100 transition-opacity duration-700 hover:shadow-lg">
+									<div class="flex relative max-h-32 md:max-h-max">
+										<a
+											href="https://www.behance.net/gallery/144979381/Book-cover-design"
+											target="_blank"
+											rel="noreferrer"
+											className="visible sm:invisible"
+										>
+											<img
+												alt="gallery"
+												class="visible absolute inset-0 w-full h-full object-cover object-center"
+												src={Kiss}
+											/>
+										</a>
+										<div class="invisible sm:visible px-8 py-10 h-[12em] sm:h-[18em] relative z-10 w-full bg-indigo-200 opacity-0 hover:opacity-100 transition-opacity duration-700 hover:shadow-lg">
 											<h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
 												InDesign
 											</h2>
@@ -201,13 +238,20 @@ const Gallery = () => {
 								</div>
 
 								<div class="lg:w-1/4 sm:w-1/2 w-1/2 p-2">
-									<div class="flex relative">
-										<img
-											alt="gallery"
-											class="absolute inset-0 w-full h-full object-cover object-center"
-											src={Drip}
-										/>
-										<div class="px-8 py-10 h-[12em] sm:h-[18em] relative z-10 w-full bg-indigo-200 opacity-0 hover:opacity-100 transition-opacity duration-700 hover:shadow-lg">
+									<div class="flex relative max-h-32 md:max-h-max">
+										<a
+											href="https://www.behance.net/gallery/145141483/Drip"
+											target="_blank"
+											rel="noreferrer"
+											className="visible sm:invisible"
+										>
+											<img
+												alt="gallery"
+												class="visible absolute inset-0 w-full h-full object-cover object-center"
+												src={Drip}
+											/>
+										</a>
+										<div class="invisible sm:visible px-8 py-10 h-[12em] sm:h-[18em] relative z-10 w-full bg-indigo-200 opacity-0 hover:opacity-100 transition-opacity duration-700 hover:shadow-lg">
 											<h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
 												Illustrator
 											</h2>
@@ -235,13 +279,20 @@ const Gallery = () => {
 								</div>
 
 								<div class="lg:w-1/4 sm:w-1/2 w-1/2 p-2">
-									<div class="flex relative">
-										<img
-											alt="gallery"
-											class="absolute inset-0 w-full h-full object-cover object-center"
-											src={Typo}
-										/>
-										<div class="px-8 py-10 h-[12em] sm:h-[18em] relative z-10 w-full bg-indigo-200 opacity-0 hover:opacity-100 transition-opacity duration-700 hover:shadow-lg">
+									<div class="flex relative max-h-32 md:max-h-max">
+										<a
+											href="https://www.behance.net/gallery/144979153/Helvetica-booklet-Typography"
+											target="_blank"
+											rel="noreferrer"
+											className="visible sm:invisible"
+										>
+											<img
+												alt="gallery"
+												class="visible absolute inset-0 w-full h-full object-cover object-center"
+												src={Typo}
+											/>
+										</a>
+										<div class="invisible sm:visible px-8 py-10 h-[12em] sm:h-[18em] relative z-10 w-full bg-indigo-200 opacity-0 hover:opacity-100 transition-opacity duration-700 hover:shadow-lg">
 											<h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
 												InDesign
 											</h2>
@@ -270,13 +321,20 @@ const Gallery = () => {
 								</div>
 
 								<div class="lg:w-1/4 sm:w-1/2 w-1/2 p-2">
-									<div class="flex relative">
-										<img
-											alt="gallery"
-											class="absolute inset-0 w-full h-full object-cover object-center"
-											src={Branding}
-										/>
-										<div class="px-8 py-10 h-[12em] sm:h-[18em] relative z-10 w-full bg-indigo-200 opacity-0 hover:opacity-100 transition-opacity duration-700 hover:shadow-lg">
+									<div class="flex relative max-h-32 md:max-h-max">
+										<a
+											href="https://www.behance.net/gallery/144972947/Former-personal-branding"
+											target="_blank"
+											rel="noreferrer"
+											className="visible sm:invisible"
+										>
+											<img
+												alt="gallery"
+												class="visible absolute inset-0 w-full h-full object-cover object-center"
+												src={Branding}
+											/>
+										</a>
+										<div class="invisible sm:visible px-8 py-10 h-[12em] sm:h-[18em] relative z-10 w-full bg-indigo-200 opacity-0 hover:opacity-100 transition-opacity duration-700 hover:shadow-lg">
 											<h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
 												Illustrator
 											</h2>

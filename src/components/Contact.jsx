@@ -16,7 +16,9 @@ const Contact = () => {
 					className="flex flex-col max-w-[600px] w-[70%]"
 				>
 					<div className="pb-8">
-						<p className="inline text-5xl font-bold text-red-300">Contact</p>
+						<p className="inline text-3xl font-bold text-red-300 sm:text-5xl">
+							Contact
+						</p>
 						<p className="py-4 text-xl font-bold text-indigo-400">
 							Submit the form below or{" "}
 							<a

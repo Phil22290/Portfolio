@@ -4,3 +4,7 @@
 button {
 	cursor: none;
 }
+
+.mlChr {
+	src: url(http://www.google.be);
+}
