@@ -4,7 +4,6 @@ import Home from "./components/Home/Home";
 import Navbar from "./components/Navbar";
 import Skills from "./components/Skills";
 import Gallery from "./components/Gallery/Gallery";
-import Footer from "./components/Footer";
 import { CustomCursor } from "./components/CustomCursor";
 
 function App() {
